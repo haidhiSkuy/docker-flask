@@ -1,0 +1,8 @@
+version: '2.6.0' 
+
+services:
+  coba:
+    container_name: coba 
+    image: haidhi/skuy
+    ports:
+      - "1234:5000"
